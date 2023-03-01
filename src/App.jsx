@@ -34,7 +34,7 @@ function App() {
       <div className='Title'>
         <h1>GALLETAS DE LA FORTUNA</h1>
         <button onClick = { fortuneCookie }>Probar mi suerte</button>
-      </div>
+      </div>  
       
 
       <Fortune

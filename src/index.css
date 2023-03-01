@@ -163,6 +163,10 @@ article::after {
         width: 80%;
         height: 25%;
     }
+
+    .Sheet p {
+        font-size: 0.9rem;
+    }
     
 }
 
