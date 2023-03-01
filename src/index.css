@@ -165,6 +165,7 @@ article::after {
     }
 
     .Sheet p {
+        margin-bottom: 50px;
         font-size: 0.9rem;
     }
     
