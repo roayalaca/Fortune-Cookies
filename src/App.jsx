@@ -12,7 +12,7 @@ function App() {
 
   const fortuneCookie = () => {
 
-    setCookie(Math.floor(Math.random() * 15))
+    setCookie(Math.floor(Math.random() * (16 - 1) + 1))
 
   }
 
