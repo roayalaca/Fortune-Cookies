@@ -229,6 +229,206 @@ article::after {
 
 }
 
+@media (min-width: 576px){
+
+    .App {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        min-width: 576px;
+        min-height: 700px;
+    }
+
+    .Title{
+        width: 18rem;
+        height: 17rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: -9rem;
+        font-size: 20px;
+    }
+
+    .Title h1{
+        position: relative;
+        left: 0.7rem;
+        top:7.5rem;
+    }
+
+    .Title button{
+        position: relative;
+        top: 7.5rem;
+        left: 1rem;
+        width: 14rem;
+        height: 4rem;
+        font-size: 18px;
+    }
+
+    .Sheet{
+        width: 24.5rem;
+        height: 14rem;
+        position: relative;
+        bottom: 1rem;
+    }
+
+    .Sheet p{
+
+        font-size: 20.5px;
+        position: relative;
+        bottom: -1rem;
+    }
+
+    .author{
+        position: relative;
+        bottom: -2.5rem;   
+        width: 16rem;
+        height: 3.5rem;
+        font-size: 22px;
+        
+    }
+
+}
+
+@media (min-width: 768px){
+
+    .App {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        min-width: 768px;
+        min-height: 100vh;
+    }
+
+    .Title{
+        width: 25rem;
+        height: 27rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: -9rem;
+        font-size: 23px;
+    }
+
+    .Title h1{
+        position: relative;
+        left: 0.7rem;
+        top:7.5rem;
+    }
+
+    .Title button{
+        position: relative;
+        top: 7.5rem;
+        left: 1rem;
+        width: 16rem;
+        height: 5rem;
+        font-size: 21px;
+    }
+
+    .Sheet{
+        width: 35.5rem;
+        height: 18rem;
+        position: relative;
+        bottom: 3rem;
+    }
+
+    .Sheet p{
+
+        font-size: 27.5px;
+        position: relative;
+        bottom: -1rem;
+    }
+
+    .author{
+        position: relative;
+        bottom: 0.5rem;   
+        width: 18rem;
+        height: 4.5rem;
+        font-size: 25px;
+        
+    }
+
+    .author p{
+        position: relative;
+        top: 0.5rem;
+    }
+
+}
+
+@media (min-width: 992px){
+
+    .App {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        min-width: 992px;
+        min-height: 100vh;
+    }
+
+    .Title{
+        width: 25rem;
+        height: 27rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: -9rem;
+        font-size: 26px;
+    }
+
+    .Title h1{
+        position: relative;
+        left: 0.7rem;
+        top:7.5rem;
+    }
+
+    .Title button{
+        position: relative;
+        top: 7.5rem;
+        left: 1rem;
+        width: 17rem;
+        height: 5rem;
+        font-size: 23px;
+    }
+
+    .Sheet{
+        width: 39.5rem;
+        height: 18rem;
+        position: relative;
+        bottom: 3rem;
+    }
+
+    .Sheet p{
+
+        font-size: 27.5px;
+        position: relative;
+        bottom: -1rem;
+    }
+
+    .author{
+        position: relative;
+        bottom: 0.5rem;   
+        width: 19rem;
+        height: 5rem;
+        font-size: 26px;
+        
+    }
+
+    .author p{
+        position: relative;
+        top: 0.6rem;
+    }
+
+}
+
+
 
 
 
