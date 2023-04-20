@@ -166,6 +166,70 @@ article::after {
 
 }
 
+@media (min-width: 321px){
+
+    .App {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        min-width: 321px;
+        min-height: 700px;
+    }
+
+    .Title{
+        width: 15rem;
+        height: 10rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: -9rem;
+        font-size: 15px;
+    }
+
+    .Title h1{
+        position: relative;
+        left: 0.7rem;
+        top:5rem;
+    }
+
+    .Title button{
+        position: relative;
+        top: 5rem;
+        left: 0.5rem;
+        width: 11rem;
+        height: 4rem;
+        font-size: 15px;
+    }
+
+    .Sheet{
+        width: 16.5rem;
+        height: 12rem;
+        position: relative;
+        bottom: 1rem;
+    }
+
+    .Sheet p{
+
+        font-size: 15.5px;
+        position: relative;
+        bottom: 0.2rem;
+    }
+
+    .author{
+        position: relative;
+        bottom: -2.5rem;   
+        width: 14rem;
+        height: 3rem;
+        font-size: 17px;
+        
+    }
+
+}
+
+
 
 
 
