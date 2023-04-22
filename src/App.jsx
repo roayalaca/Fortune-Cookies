@@ -1,14 +1,16 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import './App.css'
 import phrases from './data/phrases.json'
 import Fortune from './data/components/Fortune'
 import Author from './data/components/Author'
+import Loader from './data/components/Loader'
 
 
 
 function App() {
 
   const [cookie, setCookie] = useState(0)
+  const [loader , setLoader] = useState(true)
 
   const fortuneCookie = () => {
 
@@ -16,12 +18,11 @@ function App() {
 
   }
 
-  // const Image = () => {
-  //   return ( 
-  //     <Image> Click me </Image>
-
-  //   )
-  // }
+  useEffect( () => {
+    setTimeout( () => {
+      setLoader(false)
+    }, 3000)
+  })
 
   const images = [`url("fondo1.png")`, `url("fondo2.png")`, `url("fondo3.png")`, `url("fondo4.png")`]
 
@@ -30,6 +31,12 @@ function App() {
  
   return (
     <div className="App" style={ {backgroundImage: images[random]} } >
+
+      {
+        loader && <Loader/>
+      }
+
+
 
       <div className='Title'>
         <h1>GALLETAS DE LA FORTUNA</h1>
